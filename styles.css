@@ -1,0 +1,29 @@
+/* styles.css */
+nav {
+    display: flex;
+    align-items: center;
+    background-color: rgb(247, 64, 88); /* Color de fondo rosa para toda la franja */
+    padding: 10px; /* Espaciado alrededor del contenido del nav */
+}
+
+.logo {
+    margin-right: auto; /* Alinear el logo a la izquierda */
+}
+
+.logo img {
+    display: block;
+    max-width: 100%;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    margin-right: auto; /* Alinear el menú a la derecha */
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
